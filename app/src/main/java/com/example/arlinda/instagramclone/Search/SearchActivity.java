@@ -1,4 +1,4 @@
-package com.example.arlinda.instagramclone;
+package com.example.arlinda.instagramclone.Search;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -8,14 +8,15 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.arlinda.instagramclone.R;
 import com.example.arlinda.instagramclone.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-public class ShareActivity extends AppCompatActivity {
-    private static final String TAG = "ShareActivity";
-    private static final int ACTIVITY_NUM = 2;
+public class SearchActivity extends AppCompatActivity {
+    private static final String TAG = "SearchActivity";
+    private static final int ACTIVITY_NUM = 1;
 
-    private Context mContext = ShareActivity.this;
+    private Context mContext = SearchActivity.this;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -29,7 +30,7 @@ public class ShareActivity extends AppCompatActivity {
     /**
      * BottomNavigationView setup
      */
-    private void setupBottomNavigationView(){
+    private void setupBottomNavigationView() {
         Log.d(TAG, "setupBottomNavigationView: setting up BottomNavigationView");
         BottomNavigationViewEx bottomNavigationViewEx = (BottomNavigationViewEx) findViewById(R.id.bottomNavViewBar);
         BottomNavigationViewHelper.setupBottomNavigationView(bottomNavigationViewEx);

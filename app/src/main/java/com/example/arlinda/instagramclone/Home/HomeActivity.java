@@ -1,9 +1,10 @@
-package com.example.arlinda.instagramclone;
+package com.example.arlinda.instagramclone.Home;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.example.arlinda.instagramclone.R;
 import com.example.arlinda.instagramclone.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 

@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import com.example.arlinda.instagramclone.R;
 import com.example.arlinda.instagramclone.Utils.BottomNavigationViewHelper;
+import com.example.arlinda.instagramclone.Utils.SectionsPagerAdapter;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
 public class HomeActivity extends AppCompatActivity {

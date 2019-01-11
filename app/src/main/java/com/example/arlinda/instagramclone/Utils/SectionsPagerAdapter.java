@@ -1,4 +1,4 @@
-package com.example.arlinda.instagramclone.Home;
+package com.example.arlinda.instagramclone.Utils;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;

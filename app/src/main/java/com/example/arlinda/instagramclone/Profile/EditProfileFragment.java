@@ -17,6 +17,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 public class EditProfileFragment extends Fragment {
 
 
+
     private static final String TAG = "EditProfileFragment";
 
     private ImageView mProfilePhoto;

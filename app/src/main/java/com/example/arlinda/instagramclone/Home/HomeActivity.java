@@ -12,7 +12,9 @@ import android.view.MenuItem;
 import com.example.arlinda.instagramclone.R;
 import com.example.arlinda.instagramclone.Utils.BottomNavigationViewHelper;
 import com.example.arlinda.instagramclone.Utils.SectionsPagerAdapter;
+import com.example.arlinda.instagramclone.Utils.UniversalImageLoader;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
+import com.nostra13.universalimageloader.core.ImageLoader;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -28,12 +30,21 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         Log.d(TAG, "onCreate: starting");
 
+        initImageLoader();
+
+
         setupViewPager();
 
         setupBottomNavigationView();
 
 
+
     }
+    private void initImageLoader(){
+        UniversalImageLoader universalImageLoader = new UniversalImageLoader(mContext);
+        ImageLoader.getInstance().init(universalImageLoader.getConfig());
+    }
+
 
     /**
      * Responsavel por adicionar  3 tabs: Camera, Home, Messages

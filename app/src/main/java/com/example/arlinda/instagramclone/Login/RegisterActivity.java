@@ -1,4 +1,4 @@
-package com.example.arlinda.instagramclone.Likes;
+package com.example.arlinda.instagramclone.Login;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,19 +12,19 @@ import com.example.arlinda.instagramclone.R;
 import com.example.arlinda.instagramclone.Utils.BottomNavigationViewHelper;
 import com.ittianyu.bottomnavigationviewex.BottomNavigationViewEx;
 
-public class LikesActivity extends AppCompatActivity {
+public class RegisterActivity extends AppCompatActivity {
     private static final String TAG = "LikesActivity";
     private static final int ACTIVITY_NUM = 3;
 
-    private Context mContext = LikesActivity.this;
+    private Context mContext = RegisterActivity.this;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+        setContentView(R.layout.activity_register);
         Log.d(TAG, "onCreate: started.");
 
-      setupBottomNavigationView();
+      //  setupBottomNavigationView();
     }
 
     /**

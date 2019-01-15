@@ -23,6 +23,7 @@ import com.nostra13.universalimageloader.core.ImageLoader;
 
 public class HomeActivity extends AppCompatActivity {
 
+
     private static final String TAG = "HomeActivity";
     private static final int ACTIVITY_NUM = 0;
 
@@ -44,6 +45,10 @@ public class HomeActivity extends AppCompatActivity {
         initImageLoader();
         setupBottomNavigationView();
         setupViewPager();
+
+
+
+
 
     }
 
